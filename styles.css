@@ -14,18 +14,6 @@ ul {
   list-style: none;
 }
 
-/* .top-nav {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  position: fixed;
-  height: 50px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  background-color: #fff;
-} */
-
 .mobile-menu {
   display: none;
 }
@@ -636,12 +624,10 @@ ul {
 }
 
 @media only screen and (min-width: 768px) {
-  .main-top-header {
-    /* display: flex; */
-  }
   .main-top {
     background-color: black;
   }
+
   .top-content {
     height: 30px;
     border: thin solid black;
@@ -649,10 +635,8 @@ ul {
     display: flex;
     margin-left: auto;
     margin-right: 14%;
+    padding-top: 5px;
     justify-content: flex-end;
-  }
-
-  .top-content-li {
   }
 
   .top-content-a {
@@ -688,9 +672,6 @@ ul {
     transition: width 1s, height 1s, background-color 1s, transform 1s;
   }
 
-  .logo-div {
-  }
-
   .logo-img {
     width: 75px;
     height: 40px;
@@ -709,7 +690,7 @@ ul {
   }
 
   .navig {
-    margin-left: 50px;
+    margin-left: 30px;
     text-decoration-line: none;
     font-weight: 600;
     font-size: 14px;
@@ -823,10 +804,17 @@ ul {
   .program-last-h4 {
     margin: auto;
     padding-top: 50px;
+    padding-left: 8px;
     color: whitesmoke;
     width: 200px;
     border-bottom: thin solid whitesmoke;
     cursor: pointer;
+  }
+
+  .team {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
   }
 
   .team-h3 {
@@ -834,18 +822,17 @@ ul {
     padding-top: 50px;
   }
 
-  .grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
+  .flex-container {
+    display: flex;
+    width: 100%;
     padding: 10px;
     align-items: center;
     justify-content: center;
   }
-  .grid-item {
-    width: 450px;
-    /* text-align: center; */
+  .item {
+    width: 38%;
     display: flex;
-    padding: 30px;
+    padding: 20px;
   }
 
   .team-img {
@@ -868,5 +855,44 @@ ul {
   .team-p {
     font-size: 14px;
     color: grey;
+  }
+
+  .partner_section {
+    background-color: rgb(61, 61, 61);
+  }
+
+  .partner-h3 {
+    color: lightgray;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  .partner-div {
+    display: flex;
+    text-align: center;
+    width: 35%;
+    margin: auto;
+  }
+
+  .partner-h5 {
+    color: lightgray;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+  }
+
+  footer {
+    display: flex;
+    height: 180px;
+    align-items: center;
+  }
+
+  .footer-h3 {
+    width: 35%;
+    text-align: center;
+  }
+
+  .footer-p {
+    width: 60%;
   }
 }
