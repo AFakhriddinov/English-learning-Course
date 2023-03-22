@@ -1,10 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import "https://fonts.googleapis.com/css?family=Poppins";
-
-body {
-  background: #e5e5e5;
-}
-
 * {
   font-family: "Poppins", sans-serif;
   padding: 0;
@@ -836,9 +829,6 @@ ul {
     cursor: pointer;
   }
 
-  .team {
-  }
-
   .team-h3 {
     text-align: center;
     padding-top: 50px;
@@ -853,7 +843,7 @@ ul {
   }
   .grid-item {
     width: 450px;
-    text-align: center;
+    /* text-align: center; */
     display: flex;
     padding: 30px;
   }
@@ -861,16 +851,22 @@ ul {
   .team-img {
     width: 150px;
     height: 150px;
+    margin-right: 20px;
+  }
+
+  .team-h4 {
+    padding-bottom: 10px;
   }
 
   .team-p-italic {
     color: red;
     font-style: italic;
-    font-size: 12px;
+    font-size: 13px;
+    padding-bottom: 10px;
   }
 
   .team-p {
-    font-size: 13px;
+    font-size: 14px;
     color: grey;
   }
 }
