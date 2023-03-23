@@ -1,15 +1,13 @@
-// mobile menu section
-// function myFunction() {
-//   document.getElementById("mobile-menu").style.visibility = "visible";
-//   document.getElementById("menu-button").style.visibility = "hidden";
-// }
+function myFunction() {
+  document.getElementById("mobile-menu").style.visibility = "visible";
+  document.getElementById("menu-button").style.visibility = "hidden";
+  // document.getElementById("logo-div").style.display = "block";
+}
 
-// function myFunction2() {
-//   document.getElementById("mobile-menu").style.visibility = "hidden";
-//   document.getElementById("menu-button").style.visibility = "visible";
-// }
-
-// projects section with popup window
+function myFunction2() {
+  document.getElementById("mobile-menu").style.visibility = "hidden";
+  document.getElementById("menu-button").style.visibility = "visible";
+}
 
 const array = [
   {
