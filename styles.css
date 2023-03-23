@@ -221,7 +221,6 @@ ul {
     display: flex;
     flex-direction: column;
     width: 100%;
-    /* padding: 10px; */
     align-items: center;
     justify-content: center;
   }
@@ -309,6 +308,208 @@ ul {
     height: 40px;
     border-radius: 50%;
     padding-top: 5px;
+  }
+
+  /* About section for mobile version */
+
+  .about_section {
+    background-image: url("./images/about.jpg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+  }
+
+  .about-h1 {
+    color: rgb(238, 45, 45);
+    font-size: 48px;
+    font-weight: 700;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .about-p {
+    background-color: whitesmoke;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Lato Thin;
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+  }
+
+  .about-contact {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    color: #2a2a2a;
+    margin-top: 50px;
+    padding: 30px;
+    padding-bottom: 10px;
+  }
+
+  .about-email {
+    font-weight: 800;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding-bottom: 30px;
+    text-decoration: underline;
+  }
+
+  .logo-h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 28px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: -0.03em;
+    margin-top: 65px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+  }
+
+  .logo-p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    letter-spacing: -0.03em;
+    color: #838383;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .about-logo-div {
+    display: flex;
+    width: 90%;
+    height: 195px;
+    border: thin solid rgb(189, 185, 185);
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 35px;
+  }
+
+  .logo-about {
+    width: 125px;
+    height: 80px;
+    border-radius: 50%;
+    padding-top: 5px;
+  }
+
+  .about-logo-h3 {
+    font-size: 30px;
+    padding-left: 10px;
+  }
+
+  .logo-hr {
+    margin-top: 50px;
+  }
+
+  .about-hr {
+    width: 60px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    border-top: 1px solid red;
+  }
+
+  .about-pictures {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    margin-bottom: 71px;
+  }
+
+  .about-picture1 {
+    background-image: linear-gradient(rgb(197, 94, 94), rgb(213, 74, 74)),
+      url("./images/result1.jpg");
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-size: 100%;
+    margin: auto;
+    width: 90%;
+    height: 183px;
+    margin-bottom: 71px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-picture2 {
+    background-image: linear-gradient(rgb(197, 94, 94), rgb(213, 74, 74)),
+      url("./images/result2.jpg");
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-size: 100%;
+    width: 90%;
+    margin: auto;
+    height: 183px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .pic-h2 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+  }
+
+  .pic-h4 {
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 20px;
+  }
+
+  .about-partner-mobile {
+    padding-bottom: 40px;
+  }
+
+  .about-footer {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+  }
+
+  .footer-h3,
+  .footer-p-mobile {
+    color: #3b3e45;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+  }
+
+  .about-footer-h3 {
+    width: 30%;
+  }
+
+  .footer-p-mobile {
+    width: 45%;
+  }
+
+  .about-footer-p {
+    display: none;
   }
 }
 
@@ -556,6 +757,10 @@ ul {
     background-color: rgb(61, 61, 61);
   }
 
+  .about-partner {
+    display: none;
+  }
+
   .partner-h3 {
     color: lightgray;
     text-align: center;
@@ -581,7 +786,7 @@ ul {
     padding-bottom: 30px;
   }
 
-  footer {
+  .home-footer {
     display: flex;
     height: 180px;
     align-items: center;
@@ -597,10 +802,186 @@ ul {
     width: 65%;
   }
 
+  .footer-p-mobile {
+    display: none;
+  }
+
   .footer-div {
     display: flex;
     padding: 20px;
     width: 35%;
     justify-content: center;
+  }
+
+  /* Styling for About page */
+
+  .about_section {
+    background-image: url("./images/about.jpg");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    padding-bottom: 150px;
+  }
+
+  .about-h1 {
+    color: rgb(238, 45, 45);
+    font-size: 48px;
+    font-weight: 700;
+    padding: 70px;
+    text-align: center;
+  }
+
+  .about-p {
+    background-color: whitesmoke;
+    width: 60%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 5px;
+    font-family: Lato Thin;
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+  }
+
+  .about-contact {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    color: #2a2a2a;
+    margin-top: 50px;
+  }
+
+  .about-email {
+    font-weight: 800;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    text-decoration: underline;
+  }
+
+  .logo-h2 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 28px;
+    display: flex;
+    justify-content: center;
+    letter-spacing: -0.03em;
+    margin-top: 65px;
+  }
+
+  .logo-p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    letter-spacing: -0.03em;
+    color: #838383;
+    width: 759px;
+  }
+
+  .about-logo-div {
+    display: flex;
+    width: 542px;
+    height: 195px;
+    border: thin solid grey;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    margin-top: 35px;
+  }
+
+  .logo-about {
+    width: 125px;
+    height: 80px;
+    border-radius: 50%;
+    padding-top: 5px;
+  }
+
+  .about-logo-h3 {
+    font-size: 30px;
+    padding-left: 10px;
+  }
+
+  .logo-hr {
+    margin-top: 50px;
+  }
+
+  .about-hr {
+    width: 60px;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    border-top: 1px solid red;
+  }
+
+  .about-pictures {
+    display: flex;
+    justify-content: center;
+    margin: 35px;
+    margin-bottom: 74px;
+  }
+
+  .about-picture1 {
+    background-image: linear-gradient(rgb(197, 94, 94), rgb(213, 74, 74)),
+      url("./images/result1.jpg");
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-size: 100%;
+    width: 432px;
+    height: 236px;
+    margin-right: 25px;
+  }
+
+  .about-picture2 {
+    background-image: linear-gradient(rgb(197, 94, 94), rgb(213, 74, 74)),
+      url("./images/result2.jpg");
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-size: 100%;
+    width: 432px;
+    height: 236px;
+    margin-left: 25px;
+  }
+
+  .pic-h2 {
+    margin-top: 60px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+  }
+
+  .pic-h4 {
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    margin: 20px;
+  }
+
+  .about-footer {
+    background-color: #2e2e2e;
+    display: flex;
+    height: 180px;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .about-footer-h3,
+  .about-footer-p {
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;
   }
 }
