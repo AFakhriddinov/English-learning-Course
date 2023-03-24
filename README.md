@@ -55,7 +55,7 @@
 
  ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://afakhriddinov.github.io/Portfolio-desktop-version/)
+- [Live Demo Link](https://afakhriddinov.github.io/English-learning-Course/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> 
 
