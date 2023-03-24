@@ -39,9 +39,25 @@ ul {
     display: none;
   }
 
+  .logo-div-mobile {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+  }
+
+  .div-logo-img {
+    width: 75px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .logo-h3-mobile {
+    padding-top: 10px;
+  }
+
   #menu-button {
     margin-top: 10px;
-    margin-left: 24px;
+    /* margin-left: 24px; */
     display: block;
     cursor: pointer;
   }
@@ -51,10 +67,16 @@ ul {
   }
 
   .menu {
+    display: flex;
+    flex-direction: row;
     padding: 0;
     border: none;
     background: none;
-    margin-right: auto;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    justify-content: space-around;
+    align-items: center;
   }
 
   .mobile-menu {
@@ -488,7 +510,6 @@ ul {
     background-color: white;
     display: flex;
     align-items: center;
-    /* justify-content: space-around; */
   }
 
   .footer-h3,
@@ -514,6 +535,20 @@ ul {
 }
 
 @media only screen and (min-width: 768px) {
+  .logo-div {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .logo-div-mobile {
+    display: none;
+  }
+
+  .logo-h3 {
+    display: block;
+    padding-top: 10px;
+  }
+
   .mobile-menu {
     display: none;
   }
@@ -551,6 +586,7 @@ ul {
     padding-right: 14%;
     display: flex;
     flex-direction: row;
+    border: thin solid black;
     height: 55px;
     background-color: white;
     align-items: center;
@@ -579,6 +615,7 @@ ul {
 
   .menu-content {
     display: flex;
+    width: 100%;
     flex-direction: row;
     justify-content: space-between;
   }
