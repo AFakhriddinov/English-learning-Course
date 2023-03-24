@@ -38,7 +38,7 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 <details>
-<summary>technologies</summary>
+<summary>Technologies</summary>
   <ul>
     <li><a href="#">HTML</a></li>
     <li><a href="#">CSS</a></li>
