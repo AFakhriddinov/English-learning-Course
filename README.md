@@ -38,9 +38,12 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 <details>
-<summary>Database</summary>
+<summary>technologies</summary>
   <ul>
-    <li><a href="#">Local server</a></li>
+    <li><a href="#">HTML</a></li>
+    <li><a href="#">CSS</a></li>
+    <li><a href="#">JavaScript</a></li>
+    <li><a href="#">GitHub</a></li>
   </ul>
 </details>
 
