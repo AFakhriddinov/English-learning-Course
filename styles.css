@@ -16,7 +16,7 @@ ul {
 
 /* Mobile version */
 
-@media screen and (min-width: 375px) and (max-width: 768px) {
+@media only screen and (max-width: 768px) {
   .main-top {
     display: none;
   }
@@ -462,8 +462,7 @@ ul {
   }
 
   .about-picture1 {
-    background-image:
-      linear-gradient(rgb(197, 94, 94), rgb(213, 74, 74)),
+    background-image: linear-gradient(rgb(197, 94, 94), rgb(213, 74, 74)),
       url("./images/result1.jpg");
     background-repeat: no-repeat;
     background-blend-mode: multiply;
@@ -479,8 +478,7 @@ ul {
   }
 
   .about-picture2 {
-    background-image:
-      linear-gradient(rgb(197, 94, 94), rgb(213, 74, 74)),
+    background-image: linear-gradient(rgb(197, 94, 94), rgb(213, 74, 74)),
       url("./images/result2.jpg");
     background-repeat: no-repeat;
     background-blend-mode: multiply;
@@ -979,8 +977,7 @@ ul {
   }
 
   .about-picture1 {
-    background-image:
-      linear-gradient(rgb(197, 94, 94), rgb(213, 74, 74)),
+    background-image: linear-gradient(rgb(197, 94, 94), rgb(213, 74, 74)),
       url("./images/result1.jpg");
     background-repeat: no-repeat;
     background-blend-mode: multiply;
@@ -991,8 +988,7 @@ ul {
   }
 
   .about-picture2 {
-    background-image:
-      linear-gradient(rgb(197, 94, 94), rgb(213, 74, 74)),
+    background-image: linear-gradient(rgb(197, 94, 94), rgb(213, 74, 74)),
       url("./images/result2.jpg");
     background-repeat: no-repeat;
     background-blend-mode: multiply;
