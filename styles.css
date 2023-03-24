@@ -1,5 +1,5 @@
 * {
-  font-family: Lato Thin;
+  font-family: normal;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -357,7 +357,8 @@ ul {
     margin: auto;
     padding: 10px;
     border-radius: 5px;
-    font-family: Lato Thin;
+
+    /* font-family: Lato Thin; */
     line-height: 25px;
     font-size: 14px;
     font-weight: 400;
@@ -631,13 +632,15 @@ ul {
     font-weight: 600;
     font-size: 14px;
     line-height: 20px;
-    font-family: Lato Thin;
+
+    /* font-family: Lato Thin; */
     color: grey;
   }
 
   .navig-border {
     border: thick solid red;
-    font-family: Lato Thin;
+
+    /* font-family: Lato Thin; */
     padding: 5px;
   }
 
@@ -880,7 +883,8 @@ ul {
     margin: auto;
     padding: 30px;
     border-radius: 5px;
-    font-family: Lato Thin;
+
+    /* font-family: Lato Thin; */
     line-height: 25px;
     font-size: 14px;
     font-weight: 400;
