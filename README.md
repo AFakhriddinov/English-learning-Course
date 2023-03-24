@@ -117,8 +117,6 @@ You can deploy this project on GitHub Pages
 - Twitter: [@facebookhandle](https://www.facebook.com/abdulaziz.faxriddinov)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdul-aziz-fakhriddinov-5297a6107/)
 
-Here is my presentation video about project description [Presentation](https://screenrec.com/share/Qth3dLGlau)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
