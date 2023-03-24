@@ -38,9 +38,12 @@
 
 ### Tech Stack <a name="tech-stack"></a>
 <details>
-<summary>Database</summary>
+<summary>Technologies</summary>
   <ul>
-    <li><a href="#">Local server</a></li>
+    <li><a href="#">HTML</a></li>
+    <li><a href="#">CSS</a></li>
+    <li><a href="#">JavaScript</a></li>
+    <li><a href="#">GitHub</a></li>
   </ul>
 </details>
 
@@ -114,7 +117,7 @@ You can deploy this project on GitHub Pages
 - Twitter: [@facebookhandle](https://www.facebook.com/abdulaziz.faxriddinov)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/abdul-aziz-fakhriddinov-5297a6107/)
 
-Here is my loom video about project description [Presentation](https://www.loom.com/share/bb20ae9a7ca24027acc9c957cdd04576)
+Here is my presentation video about project description [Presentation](https://screenrec.com/share/Qth3dLGlau)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
